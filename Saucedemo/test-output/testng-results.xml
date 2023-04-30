@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-30T09:19:43 IST" name="Default suite" finished-at="2023-04-30T09:20:09 IST" duration-ms="26546">
+    <groups>
+    </groups>
+    <test started-at="2023-04-30T09:19:43 IST" name="Default test" finished-at="2023-04-30T09:20:09 IST" duration-ms="26546">
+      <class name="Saucedemo_Runner.Runner">
+        <test-method signature="Login()[pri:1, instance:Saucedemo_Runner.Runner@5f2f577]" started-at="2023-04-30T09:19:43 IST" name="Login" finished-at="2023-04-30T09:20:05 IST" duration-ms="22583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Add_first_Product_from_Inside()[pri:2, instance:Saucedemo_Runner.Runner@5f2f577]" started-at="2023-04-30T09:20:05 IST" name="Add_first_Product_from_Inside" finished-at="2023-04-30T09:20:06 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_first_Product_from_Inside -->
+        <test-method signature="Add_2nd_Product_from_Inside()[pri:0, instance:Saucedemo_Runner.Runner@5f2f577]" started-at="2023-04-30T09:20:06 IST" name="Add_2nd_Product_from_Inside" finished-at="2023-04-30T09:20:07 IST" depends-on-methods="Saucedemo_Runner.Runner.Add_first_Product_from_Inside" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_2nd_Product_from_Inside -->
+        <test-method signature="TestingNumber_OfItmesin_cart()[pri:3, instance:Saucedemo_Runner.Runner@5f2f577]" started-at="2023-04-30T09:20:07 IST" name="TestingNumber_OfItmesin_cart" finished-at="2023-04-30T09:20:08 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingNumber_OfItmesin_cart -->
+        <test-method signature="Filter()[pri:4, instance:Saucedemo_Runner.Runner@5f2f577]" started-at="2023-04-30T09:20:08 IST" name="Filter" finished-at="2023-04-30T09:20:09 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filter -->
+      </class> <!-- Saucedemo_Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
